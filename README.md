@@ -24,11 +24,11 @@ Chatbot Logic
 
 #### The chatbot logic is implemented using a combination of conditional statements and functions. The chatbot's response is determined based on the user's input and the sentiment analysis output. The chatbot's logic is as follows:
 
-**Positive Sentiment**: If the user's sentiment is positive, the chatbot offers a discount and adjusts the price accordingly.
+     Positive Sentiment : If the user's sentiment is positive, the chatbot offers a discount and adjusts the price accordingly.
 
-**Neutral Sentiment**: If the user's sentiment is neutral, the chatbot continues with the normal negotiation process.
+     Neutral Sentiment : If the user's sentiment is neutral, the chatbot continues with the normal negotiation process.
 
-**Negative Sentiment**: If the user's sentiment is negative, the chatbot responds defensively and raises the price.
+     Negative Sentiment : If the user's sentiment is negative, the chatbot responds defensively and raises the price.
 
 
 ### 3. Conclusion: ###
