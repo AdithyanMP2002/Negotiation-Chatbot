@@ -9,16 +9,16 @@ The sentiment analysis model used in this integration is the distilbert-base-unc
 
 ### 2. Model Integration ###
 
-#### 1.**Model Loading** : 
+#### 1. **Model Loading** : 
 The model is loaded using the pipeline function from the Transformers library, which provides a simple way to load and use pre-trained models.
 
-#### 2.**Model Configuration**: 
+#### 2. **Model Configuration**: 
 The model is configured to use the sentiment-analysis task, which is the default task for the distilbert-base-uncased-finetuned-sst-2-english model.
 
-#### 3.**Model Input**: 
+#### 3. **Model Input**: 
 The user's input is passed to the model as a string, which is then analyzed by the model to determine the sentiment.
 
-#### 4.**Model Output**: 
+#### 4. **Model Output**: 
 The model output is a dictionary containing the sentiment label and score. The sentiment label is used to determine the chatbot's response.
 Chatbot Logic
 
@@ -31,6 +31,6 @@ Chatbot Logic
 **Negative Sentiment**: If the user's sentiment is negative, the chatbot responds defensively and raises the price.
 
 
-### 3.Conclusion: ###
+### 3. Conclusion: ###
 
 The integration of the sentiment analysis model in the negotiation chatbot enables the chatbot to respond to users in a more human-like way, taking into account the user's sentiment and tone. The model is used to analyze the user's input and adjust the chatbot's response accordingly, providing a more personalized and engaging experience for the user.
